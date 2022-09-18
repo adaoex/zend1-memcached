@@ -3,6 +3,13 @@
 # Zend Framework 1.12
 Projeto com Zend Framework para laboratório de migração. 
 
+Container `docker` com: 
+* PHP 7.1
+* `library\` com Zend 1.12 
+* Projeto Zend Frameword 1.2 - MVC - Projeto exemplo: 'Guestbook'
+* Memcached service
+* lib-memcached
+
 ## Execução com docker
 
 ```
