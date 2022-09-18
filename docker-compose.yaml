@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  zend1_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zend1_app
+    restart: always
+    working_dir: /var/www/html
+    ports:
+      - "8085:80"
+      - "11211:11211"
+    volumes:
+      - .:/var/www/html
